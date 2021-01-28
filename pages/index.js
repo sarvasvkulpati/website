@@ -1,65 +1,49 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+    <>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <div className="prose">
+        <h1>Sarvasv Kulpati</h1>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+        <img src="/me.jpg" className="w-44 m-0" />
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+        <p>Hi! I'm Sarv. I'm a freshman at UC Berkeley interested in technology and cognition.</p>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+        <p>Previously, I made a tutoring marketplace and a no code machine learning tool that won $10,000 at a local university competition. I've also worked at 3 startups. Opinir, a reviews aggregator. Unscramble.ai, AI for motor insurance, and Pioneer.app, a fully online accelerator.</p>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+
+        <p>I'm currently taking a gap semester to teach kids, and in the process, understand first hand what it's like to be a teacher, and the technology that could make that easier.</p>
+
+        <Link href={"/blog"}>
+          <a>Blog</a>
+        </Link>
+        <br></br>
+        <Link href={"/blog/about"}>
+          <a>About</a>
+        </Link>
+        <br></br>
+        <Link href={"https://twitter.com/SarvasvKulpati"}>
+          <a>Twitter</a>
+        </Link>
+        <br></br>
+        <Link href={"https://github.com/sarvasvkulpati"}>
+          <a>Github</a>
+        </Link>
+
+
+
+      </div>
+
+
+
+
+
+
+    </>
   )
 }
