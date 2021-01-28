@@ -1,10 +1,20 @@
 import Link from 'next/link'
 
+import Head from 'next/head'
+
+
 
 export default function Home() {
   return (
 
     <>
+
+<Head>
+
+  <title>Sarvasv Kulpati</title>
+  
+</Head>
+
 
       <div className="prose">
         <h1>Sarvasv Kulpati</h1>
