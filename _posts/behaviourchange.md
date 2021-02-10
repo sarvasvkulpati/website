@@ -85,3 +85,6 @@ If you want to improve in any way, you need to notice your environment and chang
 I’ll end on this rather poetic quote I heard in [the Hamming Lecture](https://www.youtube.com/watch?v=a1zDuOPkMSw):
 
 > Change does not mean progress, but progress requires change
+
+
+
