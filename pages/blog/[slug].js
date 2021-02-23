@@ -12,6 +12,7 @@ import ReactMarkdown from 'react-markdown'
 import Tex from '@matejmazur/react-katex'
 import math from 'remark-math'
 import 'katex/dist/katex.min.css'
+import gfm from 'remark-gfm'
 
 
 export default function Post({ post, morePosts, preview }) {
@@ -58,7 +59,7 @@ export default function Post({ post, morePosts, preview }) {
                
 
                 <ReactMarkdown
-    plugins={[math]}
+    plugins={[math, gfm]}
     renderers={renderers}
     children={post.content}
   />

@@ -10,7 +10,7 @@ import { join } from 'path'
 import matter from "gray-matter";
 
 export default function Index({ allPosts }) {
-console.log(allPosts)
+console.log(allPosts.map(a => Date(a.date)))
 
   return (
     <>
@@ -24,7 +24,7 @@ console.log(allPosts)
 
 
 
-        {allPosts.map((post) => (
+        {allPosts.sort((a, b) => Date.parse(b.date) - Date.parse(a.date) ).map((post) => (
         
           <>
 
@@ -105,7 +105,7 @@ export async function getStaticProps() {
     return {
       slug: filename.replace(".md", ""),
       title: data.title,
-    
+      date: data.date
     };
   });
 
