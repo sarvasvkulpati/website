@@ -70,7 +70,7 @@ The issue is [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number
 This required ‘mental social space’ means that online communities need to cater to people who are missing some sort of social interaction offline. And so, they need to find a way to offer connections that people cannot find in person. 
 
 
-From a social lens, the internet is an aggregation of extremes. It allows everyone in the long tail to suddenly have an abundance of people like them. This means that people with unconvential interests who couldn't find their people in person, can do so online. So the the gamer, the programmer, the digital artist in school- they don’t need to feel so different anymore.
+From a social lens, the internet is an aggregation of extremes. It allows everyone in the long tail to suddenly have an abundance of people like them. This means that people with unconventional interests who couldn't find their people in person, can do so online. So the the gamer, the programmer, the digital artist in school- they don’t need to feel so different anymore.
 
 For example, I’ve been interested in startups for years now, and after bingeing [YC’s podcasts](https://blog.ycombinator.com/category/podcast/), I realised that I needed a way to find people with the SV mindset. Twitter allowed me to find many people my age with similar interests, [Enlite](https://twitter.com/sarvasvkulpati/status/1247181074611851267?lang=en) allowed me to meet a bunch of really interesting people, and interning at [Pioneer](https://pioneer.app/) gave me a glimpse of what it’s like to work at startups. All of these happened without meeting a single one of of these people in person.
 
