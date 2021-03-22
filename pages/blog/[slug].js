@@ -8,12 +8,15 @@ import Head from 'next/head'
 import Tags from '../../components/Tags'
 
 
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdownWithHTML from 'react-markdown/with-html'
 import Tex from '@matejmazur/react-katex'
 import math from 'remark-math'
 import 'katex/dist/katex.min.css'
 import gfm from 'remark-gfm'
 
+
+import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
+import {dracula} from 'react-syntax-highlighter/dist/cjs/styles/prism'
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter()
@@ -26,7 +29,10 @@ export default function Post({ post, morePosts, preview }) {
 
   const renderers = {
     inlineMath: ({value}) => <Tex math={value} />,
-    math: ({value}) => <Tex block math={value} />
+    math: ({value}) => <Tex block math={value} />,
+    code: ({language, value}) => {
+      return <SyntaxHighlighter style={dracula} language={language} children={value} />
+    }
   }
 
 
@@ -58,11 +64,11 @@ export default function Post({ post, morePosts, preview }) {
                 </div>
                
 
-                <ReactMarkdown
+                <ReactMarkdownWithHTML
     plugins={[math, gfm]}
     renderers={renderers}
     children={post.content}
-  />
+  allowDangerousHtml />
               </div>
 
 

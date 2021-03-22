@@ -15,9 +15,9 @@ export default function Tags({ tags }) {
 
 
 <div className="flex flex-row"> 
-{tags.map((tag) =>
-                <p className="text-white text-sm px-4 py-1 rounded-xl font-bold shadow-md self-center "
-                
+{tags.map((tag, idx) =>
+                <p className="text-white text-sm mx-1 px-4 py-1 rounded-xl font-bold shadow-md self-center "
+                    key = {idx}
                 style={{
                     backgroundColor: colors[tag.split("").map(ascii).reduce((a, b) => a + b, 0) % colors.length]
                 }}>
