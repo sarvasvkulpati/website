@@ -5,7 +5,7 @@ tags: ['Programming', 'Technical']
 ---
 
 
-
+Check out the completed project [here](https://markdown.sarv.repl.co/) and the code on replit [here](https://replit.com/@sarv/markdown#markdown.js)
 
 I really wanted to understand the basics of compilers, but with all these terms like tokenizers and lexers and parsers and recursive descent and LL(1), I got really intimidated and never looked into it too much.
 
