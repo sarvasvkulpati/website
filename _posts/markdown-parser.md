@@ -208,6 +208,8 @@ For example, the line `this is **really cool *markdown* **` could be converted t
 
 ## The Parser and recursive descent
 
+![parser gif](/parser.gif)
+
 Given a list of tokens, the Parser's job is to figure out how to convert them into a tree. 
 
 Now I wasn't entirely sure at first why we need a tree as the output. Surely we could just output a sequence of html directly? The issue is that that would again require a lot of janky code. 
