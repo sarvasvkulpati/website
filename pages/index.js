@@ -33,16 +33,18 @@ export default function Home() {
           <a>Blog</a>
         </Link>
         <br></br>
-        <Link href={"/blog/about"}>
-          <a>About</a>
-        </Link>
-        <br></br>
+
+      
         <Link href={"https://twitter.com/SarvasvKulpati"}>
           <a>Twitter</a>
         </Link>
         <br></br>
         <Link href={"https://github.com/sarvasvkulpati"}>
           <a>Github</a>
+        </Link>
+        <br></br>
+        <Link href={"https://www.youtube.com/channel/UCnhjB_1ib_N0MQNrx9ze9_A"}>
+          <a>Youtube</a>
         </Link>
 
 
