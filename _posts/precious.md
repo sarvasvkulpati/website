@@ -1,5 +1,5 @@
 ---
-title: "Lower your standards"
+title: "Don't be precious"
 date: 'Aug 5, 2021'
 tags: ['Creativity', 'Life']
 ---
