@@ -22,12 +22,18 @@ export default function Home() {
 
         <img src="/me.jpg" className="w-44 m-0" />
 
-        <p>Hi! I'm Sarv. I'm a freshman at UC Berkeley interested in technology and cognition.</p>
+        <p>What’s up, I’m Sarv. I’m currently a student at UC Berkeley. I’m at that point in life where I’m interested in so many things, I can’t really summarize myself as a “something”-er. I code, write non-fiction, write fiction, make youtube videos, make tiktoks, read a lot, play piano, do electronics. 
+        </p>
 
-        <p>Previously, I made a tutoring marketplace and a no code machine learning tool that won $10,000 at a local university competition. I've also worked at 3 startups. Opinir, a reviews aggregator. Unscramble.ai, AI for motor insurance, and Pioneer.app, a fully online accelerator.</p>
+
+    <p>I think a lot about math, web dev, dev tools, writing, art, literature, non-fiction, film, electronics, music and music theory, history/future of civilisation, history of progress, philosophy, cognitive science, personal psychology, emotional intelligence, computing, learning and more. (Did I mention I’m interested in a lot of things) </p>
 
 
-        <p>I'm currently taking a gap semester to teach kids, and in the process, understand first hand what it's like to be a teacher, and the technology that could make that easier.</p>
+
+      <p> You can see a list of projects I've done <a href="/blog/projects">here</a> </p>
+      <p> A brief history of me <a href="/blog/history">here</a> </p>
+      <p> Some more on what I like/believe in here <a href="/blog/believe">here</a> </p>
+
 
         <Link href={"/blog"}>
           <a>Blog</a>
@@ -47,6 +53,8 @@ export default function Home() {
           <a>Youtube</a>
         </Link>
 
+
+    <p> I'm a big fan of meeting new people. If you find anything I've written here interesting, feel free to DM on Twitter or email me with your thoughts at my full name @ gmail dot com.</p>
 
 
       </div>

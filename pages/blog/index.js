@@ -19,7 +19,14 @@ console.log(allPosts.map(a => Date(a.date)))
         <title>Sarvasv's Blog</title>
       </Head>
 
+
+      <div className="mb-4">
+    <Link href="/" > 
+    <a >👈 home
+    </a></Link> 
+  </div>
       <div className="prose" >
+        
         <h1>Posts</h1>
 
 
@@ -115,3 +122,5 @@ export async function getStaticProps() {
     },
   };
 }
+
+

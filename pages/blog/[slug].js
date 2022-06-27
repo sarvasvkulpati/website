@@ -5,6 +5,7 @@ import matter from 'gray-matter'
 
 
 import Head from 'next/head'
+import Link from 'next/link'
 import Tags from '../../components/Tags'
 
 
@@ -40,8 +41,12 @@ export default function Post({ post, morePosts, preview }) {
 
   return (
     <>
-
-
+<div className="mb-4">
+    <Link href="/blog" > 
+    <a >👈 all posts
+    </a></Link> 
+  </div>
+      
       {router.isFallback ? (
         <p>Loading…</p>
       ) : (
